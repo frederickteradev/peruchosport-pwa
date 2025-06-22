@@ -15,32 +15,26 @@ import cardCategory from "../../components/cardCategory.vue";
         </div>
         <cardCategory
           titulo="Camisas"
-          descripcion=" lorem wefwefwefwefwe "
+          img="./src/assets/camisanike.jpg"
+        ></cardCategory>
+        <cardCategory
+          titulo="Suéteres"
           img="./src/assets/card1.png"
         ></cardCategory>
         <cardCategory
-          titulo="Camisas"
-          descripcion=" lorem wefwefwefwefwe "
+          titulo="Pantalones y Jeans"
           img="./src/assets/card1.png"
         ></cardCategory>
         <cardCategory
-          titulo="Camisas"
-          descripcion=" lorem wefwefwefwefwe "
+          titulo="Shorts"
           img="./src/assets/card1.png"
         ></cardCategory>
         <cardCategory
-          titulo="Camisas"
-          descripcion=" lorem wefwefwefwefwe "
+          titulo="Gorras"
           img="./src/assets/card1.png"
         ></cardCategory>
         <cardCategory
-          titulo="Camisas"
-          descripcion=" lorem wefwefwefwefwe "
-          img="./src/assets/card1.png"
-        ></cardCategory>
-        <cardCategory
-          titulo="Camisas"
-          descripcion=" lorem wefwefwefwefwe "
+          titulo="Accesorios"
           img="./src/assets/card1.png"
         ></cardCategory>
       </div>

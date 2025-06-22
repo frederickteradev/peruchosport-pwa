@@ -1,9 +1,5 @@
-<script setup>
-import sectionContact from "../sections/contact/section-contact.vue";
-</script>
+<script setup></script>
 
-<template>
-  <sectionContact></sectionContact>
-</template>
+<template></template>
 
 <style></style>

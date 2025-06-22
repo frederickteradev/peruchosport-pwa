@@ -1,11 +1,5 @@
-<script setup>
-import herosAbout from "../sections/about/heros-about.vue";
-import servicesAbout from "../sections/about/services-about.vue";
-</script>
+<script setup></script>
 
-<template>
-  <herosAbout></herosAbout>
-  <servicesAbout></servicesAbout>
-</template>
+<template></template>
 
 <style></style>

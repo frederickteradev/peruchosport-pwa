@@ -21,41 +21,58 @@
           ]"
         />
       </span>
-      <span href="#" class="text-light ms-2 montserrat-800 shop-title">
-        MyShop
+      <span href="#" class="text-light ms-1 montserrat-700 shop-title">
+        Perucho
       </span>
+      <span class="text-danger montserrat-700 shop-title">Sport</span>
       <button
         class="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbar"
-      ></button>
+      >
+        <i class="bi bi-list"></i>
+      </button>
       <div class="collapse navcollapse navbar-collapse" id="navbar">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <router-link class="nav-link items montserrat-800 text-light" to="/"
-              >Inicio</router-link
+            <a class="nav-link items montserrat-800 text-light" href="#inicio"
+              >Inicio</a
             >
           </li>
           <li class="nav-item">
-            <router-link
+            <a
+              href="#acerca-de"
               class="nav-link items montserrat-800 text-light"
-              to="Shop"
-              >Tienda</router-link
+              >Acerca de</a
             >
           </li>
           <li class="nav-item">
-            <router-link
+            <a
               class="nav-link items montserrat-800 text-light"
-              to="About"
-              >Acerca de</router-link
+              href="#servicios"
+              >Servicios</a
             >
           </li>
           <li class="nav-item">
-            <router-link
+            <a
               class="nav-link items montserrat-800 text-light"
-              to="Contact"
-              >Contactos</router-link
+              href="#categorias"
+              >Categorías</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#productos"
+              class="nav-link items montserrat-800 text-light"
+              >Productos</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#contactos"
+              class="nav-link items montserrat-800 text-light"
+              >Contactos</a
             >
           </li>
         </ul>
@@ -89,11 +106,11 @@ onUnmounted(() => {
 }
 
 .shop-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .items:hover {
-  color: #daa520 !important;
+  color: #ff942a !important;
   transition: all ease 0.3s;
   box-shadow: 0 2px 8px rgba(218, 165, 32, 0.5);
 }
@@ -104,10 +121,10 @@ onUnmounted(() => {
 }
 
 .logo-small {
-  max-width: 70px;
+  max-width: 90px;
 }
 
 .logo-large {
-  max-width: 110px;
+  max-width: 100px;
 }
 </style>

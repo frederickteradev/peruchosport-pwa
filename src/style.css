@@ -60,18 +60,18 @@
   color: #fff !important;
 }
 
-/* DANGER - #daa520 */
+/* DANGER - #ff942a */
 .btn-danger,
 .bg-danger,
 .border-danger,
 .alert-danger,
 .badge-danger {
-  background-color: #daa520 !important;
-  border-color: #daa520 !important;
+  background-color: #ff942a !important;
+  border-color: #ff942a !important;
   color: #fff !important;
 }
 .text-danger {
-  color: #daa520 !important;
+  color: #ff942a !important;
 }
 .alert-danger {
   color: #fff !important;
@@ -94,18 +94,18 @@
   color: #fff !important;
 }
 
-/* INFO - #093d77 */
+/* INFO - #a6e162 */
 .btn-info,
 .bg-info,
 .border-info,
 .alert-info,
 .badge-info {
-  background-color: #093d77 !important;
-  border-color: #093d77 !important;
+  background-color: #a6e162 !important;
+  border-color: #a6e162 !important;
   color: #fff !important;
 }
 .text-info {
-  color: #093d77 !important;
+  color: #a6e162 !important;
 }
 .alert-info {
   color: #fff !important;
@@ -167,8 +167,8 @@
 
 /* === DANGER === */
 .btn-danger {
-  background-color: #daa520 !important;
-  border-color: #daa520 !important;
+  background-color: #ff942a !important;
+  border-color: #ff942a !important;
   color: #fff !important;
 }
 .btn-danger:hover,
@@ -179,14 +179,14 @@
 }
 
 .btn-outline-danger {
-  color: #daa520 !important;
-  border: 1px solid #daa520 !important;
+  color: #ff942a !important;
+  border: 1px solid #ff942a !important;
   background-color: transparent !important;
 }
 .btn-outline-danger:hover,
 .btn-outline-danger:focus,
 .btn-outline-danger:active {
-  background-color: #daa520 !important;
+  background-color: #ff942a !important;
   color: #fff !important;
 }
 
@@ -217,8 +217,8 @@
 
 /* === INFO === */
 .btn-info {
-  background-color: #093d77 !important;
-  border-color: #093d77 !important;
+  background-color: #a6e162 !important;
+  border-color: #a6e162 !important;
   color: #fff !important;
 }
 .btn-info:hover,
@@ -229,14 +229,14 @@
 }
 
 .btn-outline-info {
-  color: #093d77 !important;
-  border: 1px solid #093d77 !important;
+  color: #a6e162 !important;
+  border: 1px solid #a6e162 !important;
   background-color: transparent !important;
 }
 .btn-outline-info:hover,
 .btn-outline-info:focus,
 .btn-outline-info:active {
-  background-color: #093d77 !important;
+  background-color: #a6e162 !important;
   color: #fff !important;
 }
 
@@ -268,3 +268,4 @@
 .bg-light{
   background-color: #eaeaea !important;
 }
+
