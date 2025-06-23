@@ -28,8 +28,12 @@ defineProps({
         </p>
       </div>
       <div class="d-flex justify-content-between p-3">
-        <button class="btn btn-outline-primary">Ver Mas</button>
-        <button class="btn btn-outline-success">Hacer Pedido</button>
+        <button class="btn btn-outline-primary">
+          <i class="bi bi-eye fs-4"></i> Ver Mas
+        </button>
+        <button class="btn btn-success">
+          <i class="bi bi-whatsapp fs-4"></i> Hacer Pedido
+        </button>
       </div>
     </div>
   </div>

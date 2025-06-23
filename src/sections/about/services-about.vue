@@ -1,9 +1,15 @@
 <script setup></script>
 
 <template>
-  <section class="bg-danger py-2">
+  <section class="bg-danger py-2" id="#servicios">
     <div class="container-fluid p-4">
       <h2 class="display-5 montserrat-600 text-center">Servicios</h2>
+      <div class="p-4">
+        <p class="montserrat-500 lead text-center">
+          Descubre los servicios que hemos diseñado pensado en tu comodidad,
+          estilo y experiencia al comprar con nosotros.
+        </p>
+      </div>
       <div class="row py-4">
         <div class="col-md-4">
           <div class="card bg-dark mb-4">
