@@ -3,7 +3,7 @@
 <template>
   <section class="bg-light imagen">
     <div class="container mt-2 p-2">
-      <div class="aling-center">
+      <div class="d-flex align-items-center">
         <div class="row text-center text-light animate">
           <div class="d-flex justify-content-center">
             <img
@@ -16,7 +16,7 @@
             Perucho <span class="text-danger">Sport</span>
           </h1>
           <h2 class="display-6 text-info montserrat-700">Moda y Calidad</h2>
-          <p class="lead montserrat-500">
+          <p class="lead montserrat-500 p-4">
             Diseñado para el hombre que cuida su imagen sin perder su identidad.
           </p>
           <div class="">
@@ -34,13 +34,14 @@
 
 <style scoped>
 .imagen {
-  background-image: url("../../assets/heros-image.jpg");
+  background-image: url("../../assets/heros-image.webp");
 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 110vh;
+  min-height: 110vh;
+  height: auto;
   position: relative;
 
   padding-top: 80px;

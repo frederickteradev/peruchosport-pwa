@@ -1,49 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-
-.montserrat-800{
+.montserrat-800 {
   font-family: "Montserrat", sans-serif !important;
   font-optical-sizing: auto !important;
   font-weight: 800 !important;
   font-style: normal !important;
 }
 
+.montserrat-700 {
+  font-family: "Montserrat", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+}
+.montserrat-600 {
+  font-family: "Montserrat", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+}
+.montserrat-500 {
+  font-family: "Montserrat", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+}
+.montserrat-400 {
+  font-family: "Montserrat", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 400 !important;
+  font-size: medium;
+  font-style: normal !important;
+}
 
-.montserrat-700{
-    font-family: "Montserrat", sans-serif !important;
-    font-optical-sizing: auto !important;
-    font-weight: 700 !important;
-    font-style: normal !important;
-  }
-  .montserrat-600{
-    font-family: "Montserrat", sans-serif !important;
-    font-optical-sizing: auto !important;
-    font-weight: 600 !important;
-    font-style: normal !important;
-  }
-  .montserrat-500{
-    font-family: "Montserrat", sans-serif !important;
-    font-optical-sizing: auto !important;
-    font-weight: 500 !important;
-    font-style: normal !important;
-  }
-  .montserrat-400{
-    font-family: "Montserrat", sans-serif !important;
-    font-optical-sizing: auto !important;
-    font-weight: 400 !important;
-    font-size: medium;
-    font-style: normal !important;
-  }
+.montserrat-300 {
+  font-family: "Montserrat", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 300 !important;
+  font-style: normal !important;
+}
 
-  .montserrat-300{
-    font-family: "Montserrat", sans-serif !important;
-    font-optical-sizing: auto !important;
-    font-weight: 300 !important;
-    font-style: normal !important;
-  }
-
-
-  /* PRIMARY - #3a7ca5 */
+/* PRIMARY - #3a7ca5 */
 .btn-primary,
 .bg-primary,
 .border-primary,
@@ -127,8 +124,6 @@
 .alert-light {
   color: #000 !important;
 }
-
-
 
 /* GENERAL BUTTON STYLES */
 .btn,
@@ -265,7 +260,14 @@
   color: #000 !important;
 }
 
-.bg-light{
+.bg-light {
   background-color: #eaeaea !important;
 }
 
+.destacado {
+  color: #222222;
+}
+
+html, body {
+  overflow-x: hidden;
+}

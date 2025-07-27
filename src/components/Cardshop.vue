@@ -1,7 +1,7 @@
 <script setup>
 defineProps({
   titulo: String,
-  precio: Number,
+  descripcion: String,
   img: Number,
 });
 </script>
@@ -13,27 +13,21 @@ defineProps({
         <img :src="img" alt="" class="card-img img-fluid rounded-0" />
       </div>
       <div class="card-body">
-        <h2 class="card-title text-danger text-center">{{ titulo }}</h2>
+        <h4 class="card-title text-danger text-center p-2">{{ titulo }}</h4>
         <div class="tags-container m-3">
           <!--<span class="badge shadow fs-6 mb-2">Blusa & Tops</span>
           <span class="badge shadow fs-6 mb-2"> Pantalones & Shorts</span>
           <span class="badge shadow fs-6">Conjuntos</span>-->
         </div>
 
-        <h3 class="text-center mb-3">
-          <span class="text-success">$</span>{{ precio }}
-        </h3>
         <p class="card-text text-white m-3">
           {{ descripcion }}
         </p>
       </div>
       <div class="d-flex justify-content-between p-3">
-        <button class="btn btn-outline-primary">
-          <i class="bi bi-eye fs-4"></i> Ver Mas
-        </button>
-        <button class="btn btn-success">
+        <a href="https://wa.me/584120801682" class="btn btn-success ms-2">
           <i class="bi bi-whatsapp fs-4"></i> Hacer Pedido
-        </button>
+        </a>
       </div>
     </div>
   </div>

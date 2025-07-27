@@ -23,7 +23,7 @@ defineProps({
     <h2 class="card-title text-danger text-center mt-3 mb-3">{{ titulo }}</h2>
     <div class="d-flex justify-content-center">
       <a
-        href=""
+        href="https://wa.me/584120801682"
         class="btn btn-success text-center d-flex justify-content-center align-items-center gap-1"
         ><i class="bi bi-whatsapp fs-4"></i> Hacer Pedido</a
       >
