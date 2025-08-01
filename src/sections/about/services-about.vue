@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <section class="bg-danger py-2" id="#servicios">
+  <section class="bg-danger py-2" id="servicios">
     <div class="container-fluid p-4">
       <h2 class="display-5 montserrat-600 text-center">Servicios</h2>
       <div class="p-4">

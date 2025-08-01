@@ -5,7 +5,7 @@ import footerShop from "./components/Footer.vue";
 
 <template>
   <navBar></navBar>
-
+  
   <router-view></router-view>
   <footerShop></footerShop>
 </template>

@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <section class="bg-dark heros py-5">
+  <section class="bg-dark heros py-5" id="acerca-de">
     <div class="container p-4">
       <div class="row py-5">
         <div class="col-md-6 col-sm-12 py-2 pt-5 bg-danger">

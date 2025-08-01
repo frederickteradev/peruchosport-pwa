@@ -1,7 +1,8 @@
-<script setup></script>
+<script setup>
+</script>
 
 <template>
-  <section class="bg-light imagen">
+  <section class="bg-light imagen" id="inicio">
     <div class="container mt-2 p-2">
       <div class="d-flex align-items-center">
         <div class="row text-center text-light animate">
@@ -44,7 +45,7 @@
   height: auto;
   position: relative;
 
-  padding-top: 80px;
+  padding-top: 110px;
 }
 
 .imagen::before {

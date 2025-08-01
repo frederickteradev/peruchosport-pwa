@@ -3,7 +3,7 @@ import cardShop from "../../components/Cardshop.vue";
 </script>
 
 <template>
-  <section class="bg-danger p-5" id="descatados">
+  <section class="bg-danger p-5" id="productos">
     <div class="container">
       <div class="row">
         <div class="text-center text-white mb-3">
