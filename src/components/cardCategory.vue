@@ -6,7 +6,8 @@ defineProps({
 });
 </script>
 
-<template>
+
+
   <div class="col-md-4 mb-4">
     <div class="card bg-light rounded-circle">
       <div class="card-body">
