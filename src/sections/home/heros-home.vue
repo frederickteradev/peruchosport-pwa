@@ -8,7 +8,7 @@
         <div class="row text-center text-light animate">
           <div class="d-flex justify-content-center">
             <img
-              src="../../assets/logo.png"
+              src="../../assets/logo.webp"
               class="img-fluid logo-heros"
               alt=""
             />
